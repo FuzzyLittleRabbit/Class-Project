@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head>  
+    <style>
+      body{
+        background-color: yellow;
+      }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>To-Do List</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+  
   <body>
-    Hello world
+    
+  <header>  
+    <nav>
+      <div class="navbar">
+        <div id="nav-bar-container">
+          <img src="Logo.png" alt="">
+          <ul class="navbar-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+  <main>
+   <h2>New Task</h2>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="name"> Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="name" name="firstname" placeholder="Type Name.">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="date">Date</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="date" name="date" placeholder="Current Date">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Status">Status</label>
+    </div>
+    <div class="col-75">
+      <select id="status" name="status">
+        <option value="not started">Not Started</option>
+        <option value="in progress">In Progress</option>
+        <option value="complete">Complete</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Decription</label>
+    </div>
+    <div class="col-75">
+      <textarea id="description" name="description" placeholder="Describe Task." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+  </main>
+
+  <footer>
+    <a class="footer" href="tel:123-456-7890">(123)456-7890</a>
+    <p>Author: Steve T.</p>
+    <p><a class="footer" href="mailto">hege JWD@.com</a></p>
+  </footer>
     <script src="script.js"></script>
   </body>
 </html>

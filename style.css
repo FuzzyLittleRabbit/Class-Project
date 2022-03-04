@@ -1,0 +1,110 @@
+ p {
+   
+ }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  /* nav bar*/
+.navbar-links {
+  padding: 0;
+  margin: 0;
+
+}
+  /* form */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #491b23;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #d6f1f1;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/* task card section*/
+.table1 {
+            border: 1px solid grey;
+            border-radius: 10px;
+            width: 1000px;
+            box-shadow: 1px 2px 2px 1px #888888;
+            padding-left: 20px;
+            padding-bottom: 60px;
+            display: flex;
+            border-collapse: collapse;
+        }
+
+        a {
+            text-decoration: none;
+            color: #d6f1f1;
+                 }
+
+        .table2 {
+            border: 1px solid grey;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            box-shadow: 0px 0px 15px 0px #888888;
+            padding: 100px;
+            margin-top: 0px;
+        }
+
+        div span {
+            width: 200px;
+            padding-left: 15px;
+        }
+
+        div span span {
+            border: 1px solid red;
+            padding: 5px;
+            background-color: red;
+            border-radius: 5px;
+        }
