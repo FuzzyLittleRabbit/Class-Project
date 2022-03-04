@@ -10,7 +10,6 @@
 .navbar-links {
   padding: 0;
   margin: 0;
-
 }
   /* form */
   input[type=text], select, textarea {
@@ -42,7 +41,7 @@
   
   .container {
     border-radius: 5px;
-    background-color: #d6f1f1;
+    background-color: yellow;
     padding: 20px;
   }
   
